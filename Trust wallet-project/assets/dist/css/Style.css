@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Roboto&display=swap');
+html{
+    overflow: hidden;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    background-color: #3375BB;
+    overflow: hidden;
+}
+
+main:nth-child(1) {
+    height: 100vh;
+}
+
+main > div > .row > .col-md-6:nth-child(1) {
+    margin-top: 10%;
+}
+
+button{
+    color: #3375BB;
+}
+
+.hidden {
+    opacity: 0.5;
+}
+
+.btn-custome{background-color: rgb(8, 8, 185);}
+
+@media (max-width: 425px) {
+    body{
+        overflow-y: auto;
+    }
+
+    .brand3{
+        display: none;
+    }
+
+    .brand2{
+        display: none;
+    }
+
+    .app{
+        width: 100% !important;
+    }
+
+    .no-show{
+        display: none;
+    }
+}
+
+@media (max-width: 320px) {
+    .brand2{
+        display: none;
+    }
+
+    .container{
+        margin: 0% !important;
+        width: 100% !important;
+    }
+} 
+
+@media (max-width: 768px) {
+    .nav-col{
+        width: 50%;
+    }
+
+    .app{
+        width: 100%;
+    }
+
+    .secure{
+        width: 100%;
+    }
+
+    .no-show{
+        display: none;
+    }
+}
+
+@media (max-width: 540px) {
+    .brand3{
+        display: none;
+    }
+
+    .brand2{
+        display: none;
+    }
+
+    .app-img{
+        width: 30%;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .secure{
+        width: 100%;
+    }
+
+    .no-show{
+        display: none;
+    }
+
+    .play{
+        width: 350%;
+    }
+
+    .play-btn{
+        width: 50%;
+    }
+}
