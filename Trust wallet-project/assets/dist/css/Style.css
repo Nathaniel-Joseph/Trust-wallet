@@ -18,7 +18,7 @@ main:nth-child(1) {
 }
 
 main > div > .row > .col-md-6:nth-child(1) {
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 button{
@@ -27,6 +27,14 @@ button{
 
 .hidden {
     opacity: 0.5;
+}
+
+.show{
+    display: initial !important;
+}
+
+.hide{
+    display: none !important;
 }
 
 .btn-custome{background-color: rgb(8, 8, 185);}
