@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Roboto&display=swap');
 html{
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 body{
@@ -37,7 +37,9 @@ button{
     display: none !important;
 }
 
-.btn-custome{background-color: rgb(8, 8, 185);}
+.modal-content{
+    background-color: #3375BB;
+}
 
 @media (max-width: 425px) {
     body{
